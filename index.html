@@ -11,7 +11,23 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
-	</head>
+		<style>
+			#header nav ul li a {
+		width: 10.5rem;
+		min-width: 10.5rem;
+		padding-left: 0;
+		padding-right: 0;
+		text-align: center;
+	}
+	@media screen and (max-width: 736px) {
+		#header nav ul li a {
+			width: 100%;
+			min-width: 0;
+		}
+	}
+</style>
+</head>
+		
 	<body class="is-preload">
 
 		<!-- Wrapper -->
